@@ -53,7 +53,7 @@ O dataset está disponível em: [https://osf.io/mxrgu/](https://osf.io/mxrgu/)
 - `/schema` — Scripts para criação do schema e tabelas.
 - `/queries` — Consultas SQL desenvolvidas.
 - `/analysis` — Relatório de análise de desempenho.
-- `/data` — Arquivos CSV do dataset (opcional, conforme o tamanho e uso do Git LFS).
+- `/csv_databases` — Arquivos CSV do dataset.
 
 ---
 
