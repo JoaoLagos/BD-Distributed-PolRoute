@@ -12,7 +12,7 @@ def execute_query(spark):
         ) AS total_crimes
     FROM crime c
     JOIN time t ON c.time_id = t.id
-    WHERE t.year = 2018 AND (t.weekday = 'Saturday' OR t.weekday = 'Sunday')
+    WHERE t.year = 2018 AND (t.weekday = 'saturday' OR t.weekday = 'sunday')
     GROUP BY c.segment_id
     ORDER BY total_crimes DESC
     LIMIT 10
